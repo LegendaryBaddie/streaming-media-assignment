@@ -1,0 +1,29 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "streaming media homework",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"tests complete\""
+  },
+  "engines": {
+    "node": "8.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LegendaryBaddie/streaming-media-assignment.git"
+  },
+  "author": "Austin White",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LegendaryBaddie/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/LegendaryBaddie/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^4.6.1",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  }
+}
